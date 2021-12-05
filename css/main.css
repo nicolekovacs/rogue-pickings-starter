@@ -52,7 +52,7 @@ header {
 }
 
 header h1 {
-	padding: 38px 0;
+	padding: 15px 0;
 	border-bottom: 3px solid #77a466;
 	width: 100%;
 	text-align: center;
@@ -62,7 +62,7 @@ header h1 span {
 }
 
 header nav {
-	padding: 46px 0;
+	padding: 10px 0;
 	width: 100%;
 	text-align: center;
 }
