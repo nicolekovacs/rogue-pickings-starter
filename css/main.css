@@ -103,12 +103,6 @@ header nav ul li a{
 	line-height: 25px;
 }
 
-.section-one,
-.section-two,
-.section-three {
-	border-top: 1px solid #eee;
-}
-
 .section-one h3 {
 	padding: 10px 0;
 }
@@ -159,6 +153,11 @@ footer span {
 
 @media all and (min-width:768px) {
     /* Tablet styles here */
+
+.top-section,
+.bottom-section {
+	width: 70%;
+}	
  
 .bottom-section {
 	display: flex;
@@ -171,6 +170,7 @@ footer span {
 .section-two,
 .section-three {
 	width: 33.3%;
+	border-top: 1px solid #eee;
 }
 }
 
@@ -185,6 +185,12 @@ footer span {
  
 @media all and (min-width:1200px) {
     /* Desktop styles here */
+
+.top-section,
+.bottom-section {
+	width: 90%;
+}
+	
  
 header {
 	justify-content: space-between;
@@ -204,5 +210,15 @@ header nav {
 header nav ul {
 	display: flex;
 	justify-content: space-between;
+}
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 33.3%;
+	border-top: 1px solid #eee;
+	padding: 5px;
+	margin: 5px;
 }
 }
