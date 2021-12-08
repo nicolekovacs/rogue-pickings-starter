@@ -156,7 +156,7 @@ footer span {
 
 .top-section,
 .bottom-section {
-	width: 80%;
+	width: 100%;
 }	
  
 .bottom-section {
@@ -170,6 +170,8 @@ footer span {
 .section-three {
 	width: 33.3%;
 	border-top: 1px solid #eee;
+	padding: 10px;
+	margin: 5px;
 }
 
 .section-two {
@@ -186,7 +188,7 @@ footer span {
 
 .top-section,
 .bottom-section {
-	width: 90%;
+	width: 100%;
 }
 	
  
@@ -215,7 +217,7 @@ header nav ul {
 .section-three {
 	width: 33.3%;
 	border-top: 1px solid #eee;
-	padding: 5px;
+	padding: 10px;
 	margin: 5px;
 }
 
