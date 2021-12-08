@@ -85,7 +85,7 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
-	width: 60%;
+	width: 90%;
 }
 
 .main-image img {
@@ -156,14 +156,13 @@ footer span {
 
 .top-section,
 .bottom-section {
-	width: 70%;
+	width: 80%;
 }	
  
 .bottom-section {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	border-top: 1px solid #eee;
 }
 
 .section-one,
@@ -172,17 +171,16 @@ footer span {
 	width: 33.3%;
 	border-top: 1px solid #eee;
 }
+
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee; 
 }
 
 .top-section {
 	font-size: 1.25em;
 }
 
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
- 
 @media all and (min-width:1200px) {
     /* Desktop styles here */
 
@@ -211,7 +209,6 @@ header nav ul {
 	display: flex;
 	justify-content: space-between;
 }
-}
 
 .section-one,
 .section-two,
@@ -221,4 +218,8 @@ header nav ul {
 	padding: 5px;
 	margin: 5px;
 }
+
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee; 
 }
