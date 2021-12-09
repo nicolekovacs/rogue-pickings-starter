@@ -83,20 +83,18 @@ header nav ul li a{
 }
 
 /*The widths are in a percentage!*/
-.top-section,
-.bottom-section {
-	width: 90%;
-}
 
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
 }
+
 .main-title h2 {
 	text-align: left;
 	padding: 5px 0;
 	color: #77a466;
 }
+
 .main-title p {
 	padding: 0;
 	font-size: 1em;
@@ -116,6 +114,7 @@ header nav ul li a{
 	list-style: none;
 	padding: 0;
 }
+
 .menu li {
 	padding: 10px 0;
 	color:#77a466;
@@ -144,6 +143,7 @@ footer {
 	flex-flow: row wrap;
 	width: 100%;
 }
+
 footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
@@ -153,11 +153,6 @@ footer span {
 
 @media all and (min-width:768px) {
     /* Tablet styles here */
-
-.top-section,
-.bottom-section {
-	width: 100%;
-}	
  
 .bottom-section {
 	display: flex;
@@ -210,18 +205,4 @@ header nav {
 header nav ul {
 	display: flex;
 	justify-content: space-between;
-}
-
-.section-one,
-.section-two,
-.section-three {
-	width: 33.3%;
-	border-top: 1px solid #eee;
-	padding: 10px;
-	margin: 5px;
-}
-
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee; 
-}
+}}
